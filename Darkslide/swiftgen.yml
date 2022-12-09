@@ -1,0 +1,13 @@
+strings:
+  inputs: Darkslide/Resources/en.lproj
+  filter: .+\.strings$
+  outputs:
+    - templateName: structured-swift5
+      output: Darkslide/Generated/Strings.swift
+xcassets:
+  inputs:
+    - Darkslide/Resources/Colors.xcassets
+    - Darkslide/Resources/Images.xcassets
+  outputs:
+    - templateName: swift5
+      output: Darkslide/Generated/Assets.swift

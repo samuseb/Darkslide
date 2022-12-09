@@ -1,0 +1,5 @@
+included:
+  - Darkslide
+
+excluded:
+  - Pods

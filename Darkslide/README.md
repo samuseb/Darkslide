@@ -1,0 +1,2 @@
+# Darkslide - iOS App
+Szakdolgozat
